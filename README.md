@@ -1,1 +1,1 @@
-[DEMO LINK](https://kirilllutsenko.github.io/Template_for_TT/)
+[DEMO LINK](https://kirilllutsenko.github.io/TT-for-DVZN/)
