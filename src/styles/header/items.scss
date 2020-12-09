@@ -1,0 +1,19 @@
+.items {
+  box-shadow: 0 0 10px rgba(131, 144, 193, 0.25);
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $nav-menu-width;
+    height: 30px;
+    border-bottom: 0.5px solid;
+    background-color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background-color: $main-hover-color;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 0 calc(50% - 555px);
+
+  &__logo {
+    width: 58px;
+    height: 27px;
+    color: #006fae;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: $transition-color;
+
+    &:hover {
+      color: $main-hover-color;
+    }
+  }
+
+  &__section {
+    display: flex;
+  }
+}

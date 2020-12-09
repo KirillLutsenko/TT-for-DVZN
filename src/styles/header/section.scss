@@ -1,0 +1,26 @@
+.section {
+  &__languages {
+    padding: 28px 0;
+    width: $nav-menu-width;
+    cursor: pointer;
+    transition: $transition-color, $box-shadow-hover;
+
+    &:hover {
+      color: $main-hover-color;
+      box-shadow: 0 0 10px rgba(131, 144, 193, 0.25);
+    }
+  }
+
+  &__log-in {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    width: $nav-menu-width;
+    transition: $transition-color, $box-shadow-hover;
+
+    &:hover {
+      color: $main-hover-color;
+      box-shadow: 0 0 10px rgba(131, 144, 193, 0.25);
+    }
+  }
+}

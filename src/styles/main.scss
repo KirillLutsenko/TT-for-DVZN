@@ -1,1 +1,37 @@
-//style here
+@import "./vars.scss";
+@import "./reset.scss";
+@import "./page.scss";
+@import "./header/header.scss";
+@import "./header/content.scss";
+@import "./header/nav.scss";
+@import "./header/logo.scss";
+@import "./header/menu.scss";
+@import "./header/section.scss";
+@import "./header/items.scss";
+@import "./header/item.scss";
+@import "./header/languages.scss";
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #081d31;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  background: #f9fcfe;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
