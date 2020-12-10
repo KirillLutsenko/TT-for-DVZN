@@ -1,0 +1,39 @@
+.messengers {
+  &__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+
+  &__icons {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  &__icon {
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__icon--1 {
+    background: url("../../src/images/facebook.png") no-repeat;
+  }
+
+  &__icon--2 {
+    background: url("../../src/images/instagram.png") no-repeat;
+  }
+
+  &__icon--3 {
+    background: url("../../src/images/youtube.png") no-repeat;
+    background-position: center;
+  }
+}

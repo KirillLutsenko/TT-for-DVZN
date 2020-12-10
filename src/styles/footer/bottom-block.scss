@@ -1,0 +1,14 @@
+.bottom-block {
+  &__footer-section {
+    display: flex;
+  }
+
+  &__license-link {
+    margin-right: 90px;
+    transition: $transition-color;
+
+    &:hover {
+      color: $default-color;
+    }
+  }
+}

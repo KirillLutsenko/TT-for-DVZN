@@ -1,0 +1,25 @@
+.info {
+  &__link {
+    width: 58px;
+    margin-left: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    transition: $transition-color;
+
+    &:hover {
+      color: $default-color;
+    }
+  }
+
+  &__description {
+    margin-top: 23px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+}

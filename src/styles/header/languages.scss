@@ -1,4 +1,6 @@
 .languages {
+  position: relative;
+
   &__list {
     display: none;
     position: absolute;
@@ -10,6 +12,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    margin-right: 15px;
 
     &:after {
       content: "";

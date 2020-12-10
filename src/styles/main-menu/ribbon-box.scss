@@ -1,0 +1,53 @@
+.ribbon-box {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+
+  &__ribbon {
+    position: absolute;
+    top: 30px;
+    left: -137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 26px;
+    background-color: #ffd116;
+    transform: rotate(-45deg);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 23.9px;
+      right: 110.4px;
+      transform: rotate(45deg);
+      border: 2px solid transparent;
+      border-right: 2px solid #e67e22;
+      border-bottom: 2px solid #e67e22;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 23.9px;
+      right: 257.8px;
+      transform: rotate(45deg);
+      border: 2px solid transparent;
+      border-right: 2px solid #e67e22;
+      border-bottom: 2px solid #e67e22;
+    }
+  }
+
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  &__nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 117px 17px 39px 0;
+    border-bottom: 1px solid #f2f6fa;
+  }
+
+  &__bottom-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+  }
+}

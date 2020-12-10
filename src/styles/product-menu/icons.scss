@@ -1,0 +1,70 @@
+.icons {
+  &__icon {
+    display: block;
+    margin: 0 32.5px 32px;
+    min-width: 36px;
+    min-height: 36px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__icon--1 {
+    background: url("../../src/images/icons/Lifebuoy.png") no-repeat;
+  }
+
+  &__icon--2 {
+    background: url("../../src/images/icons/skate.png") no-repeat;
+  }
+
+  &__icon--3 {
+    background: url("../../src/images/icons/snow.png") no-repeat;
+  }
+
+  &__icon--4 {
+    background: url("../../src/images/icons/umbrella.png") no-repeat;
+  }
+
+  &__icon--5 {
+    background: url("../../src/images/icons/paint.png") no-repeat;
+  }
+
+  &__icon--6 {
+    background: url("../../src/images/icons/file.png") no-repeat;
+  }
+
+  &__icon--7 {
+    background: url("../../src/images/icons/toilet-paper.png") no-repeat;
+  }
+
+  &__icon--8 {
+    background: url("../../src/images/icons/donut.png") no-repeat;
+  }
+
+  &__icon--9 {
+    background: url("../../src/images/icons/pencils.png") no-repeat;
+  }
+
+  &__icon--10 {
+    background: url("../../src/images/icons/infinity.png") no-repeat;
+  }
+
+  &__icon--11 {
+    background: url("../../src/images/icons/list.png") no-repeat;
+  }
+
+  &__icon--12 {
+    background: url("../../src/images/icons/bus.png") no-repeat;
+  }
+
+  &__icon--13 {
+    background: url("../../src/images/icons/truck.png") no-repeat;
+  }
+
+  &__icon--14 {
+    background: url("../../src/images/icons/statistics.png") no-repeat;
+  }
+}

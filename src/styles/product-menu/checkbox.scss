@@ -1,0 +1,47 @@
+.checkbox {
+  display: flex;
+  flex-direction: flex-start;
+  margin-bottom: 55px;
+  width: 332.5px;
+  cursor: pointer;
+
+  &__text {
+    text-align: start;
+    margin-left: 24.6px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+  }
+
+  &__radio {
+    display: none;
+  }
+
+  &__radio-main {
+    position: relative;
+    display: block;
+    width: 22.8px;
+    height: 22.8px;
+    border: 0.5px solid #b2becb;
+    border-radius: 2px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 14px;
+      height: 7px;
+      border-bottom: 2.5px solid #fff;
+      border-left: 2.5px solid #fff;
+      transform: rotate(-45deg);
+      top: 5.5px;
+      left: 5px;
+    }
+  }
+}
+
+.checkbox__radio:checked + .checkbox__radio-main {
+  border: hidden;
+  background-color: #efc22d;
+}
