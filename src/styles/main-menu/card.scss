@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  height: 369px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(131, 144, 193, 0.25);
+
+  &__title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #4376a6;
+  }
+
+  &__price {
+    position: relative;
+    margin-top: 24px;
+    color: #2e3c49;
+
+    // &:after {
+    //   content: "Save 35%";
+    //   position: absolute;
+    //   top: 36px;
+    //   left: calc(50% - 30px);
+    //   font-weight: 300;
+    //   font-size: 14px;
+    //   line-height: 20px;
+    //   color: #e67e22;
+    // }
+  }
+
+  &__price-inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 63px;
+  }
+
+  &__button {
+    margin: 38px calc(175px - 80px);
+    width: 160px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: $default-color;
+    background-color: #fff;
+    border: 2px solid $default-color;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: $main-hover-color;
+      border-color: $main-hover-color;
+    }
+  }
+}

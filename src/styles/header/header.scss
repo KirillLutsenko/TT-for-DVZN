@@ -1,4 +1,4 @@
-.content {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@
   &__logo {
     width: 58px;
     height: 27px;
-    color: #006fae;
+    color: $default-color;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;

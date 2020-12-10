@@ -1,0 +1,22 @@
+.price {
+  &__symbol {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  &__cost {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  &__currency {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
