@@ -45,3 +45,14 @@
   border: hidden;
   background-color: #efc22d;
 }
+
+@media screen and (max-width: 530px) {
+  .checkbox {
+    width: 260px;
+
+    &__text {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+}

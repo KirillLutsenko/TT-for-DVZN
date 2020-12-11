@@ -32,3 +32,41 @@
     margin-top: 26px;
   }
 }
+
+@media screen and (min-width: 320px) {
+  .product-menu {
+    &__title {
+      padding: 0 20px;
+    }
+
+    &__description {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .product-menu {
+    &__checkboxes {
+      justify-content: center;
+      margin: 26px 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .product-menu {
+    &__checkboxes {
+      justify-content: center;
+      margin: 26px 30px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__description {
+      font-size: 14px;
+    }
+  }
+}

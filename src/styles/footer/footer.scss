@@ -2,6 +2,7 @@
   &__nav-menu {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 117px 17px 39px 0;
     border-bottom: 1px solid #f2f6fa;
   }
@@ -14,5 +15,15 @@
     font-size: 12px;
     line-height: 16px;
     text-transform: capitalize;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    height: 100%;
+    &__nav-menu {
+      flex-direction: column;
+      text-align: center;
+    }
   }
 }

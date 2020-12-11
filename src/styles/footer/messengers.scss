@@ -25,15 +25,29 @@
   }
 
   &__icon--1 {
-    background: url("../../src/images/facebook.png") no-repeat;
+    background: url("../../src/images/fb.svg") no-repeat center;
+    background-size: cover;
   }
 
   &__icon--2 {
-    background: url("../../src/images/instagram.png") no-repeat;
+    background: url("../../src/images/insta.svg") no-repeat center;
+    background-size: cover;
   }
 
   &__icon--3 {
-    background: url("../../src/images/youtube.png") no-repeat;
+    background: url("../../src/images/youtube.svg") no-repeat center;
     background-position: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .messengers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__title {
+      margin-right: 50px;
+    }
   }
 }

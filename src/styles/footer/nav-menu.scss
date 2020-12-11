@@ -4,3 +4,15 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .nav-menu {
+    &__info {
+      align-items: flex-start;
+    }
+
+    &__menu-section {
+      margin-bottom: 20px;
+    }
+  }
+}
