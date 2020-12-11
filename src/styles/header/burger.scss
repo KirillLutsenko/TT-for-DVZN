@@ -1,0 +1,28 @@
+.burger {
+  display: none;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: url("../../src/images/burger-menu.png") no-repeat center;
+  background-size: contain;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.burger-active {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: url("../../src/images/burger-cross.png") no-repeat center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 650px) {
+  .burger {
+    display: block;
+  }
+}

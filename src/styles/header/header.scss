@@ -21,3 +21,11 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .header {
+    &__logo {
+      margin-left: 50px;
+    }
+  }
+}

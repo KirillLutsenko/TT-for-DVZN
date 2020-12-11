@@ -77,15 +77,12 @@
     background-color: #fff;
     border: 3px solid $default-color;
     transition: all 0.2s ease;
+    outline: 0;
 
     &:hover {
       color: #fff;
       background-color: $main-hover-color;
       border-color: $main-hover-color;
-    }
-
-    &:focus {
-      outline: 0;
     }
   }
 }

@@ -3,13 +3,11 @@
 @import "./page.scss";
 @import "./header/header.scss";
 @import "./header/nav.scss";
-@import "./header/logo.scss";
 @import "./header/menu.scss";
 @import "./header/section.scss";
 @import "./header/items.scss";
 @import "./header/languages.scss";
 @import "./main-menu/main-menu.scss";
-@import "./main-menu/slider.scss";
 @import "./main-menu/switch-buttons.scss";
 @import "./main-menu/cards.scss";
 @import "./main-menu/card.scss";
@@ -27,6 +25,7 @@
 @import "./footer/bottom-block.scss";
 @import "./footer/footer-languages.scss";
 @import "./footer/footer-section.scss";
+@import "./header/burger.scss";
 
 html {
   scroll-behavior: smooth;
@@ -34,6 +33,7 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #081d31;
+  font-weight: 400;
 }
 
 body {
