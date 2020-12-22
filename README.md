@@ -6,7 +6,7 @@
 
 - Tech stack: HTML5, SASS, BEM, Flexbox, JS(for Burger-Menu)
 - All buttons and links are interactive.
-- Design you can find [here] (https://www.figma.com/file/LFeOtJpL0OjTcKQzuzNJGy/Test-Task?node-id=0:1)
+- Design you can find [here](https://www.figma.com/file/LFeOtJpL0OjTcKQzuzNJGy/Test-Task?node-id=0:1)
 
 **Styles folder structure:**
 - Header(logo, nav, login/languages section, burger)
