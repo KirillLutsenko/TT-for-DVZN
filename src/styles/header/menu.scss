@@ -11,9 +11,11 @@
   }
 
   &__items {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 72.5px;
+    transition: opacity 0.3s ease;
   }
 
   &__link {
@@ -37,7 +39,8 @@
 }
 
 .menu:hover .menu__items {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .menu:focus .menu__items {

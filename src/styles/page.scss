@@ -5,24 +5,24 @@
     align-items: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(131, 144, 193, 0.25);
-    padding: 0 calc(50% - 555px);
+    padding: $large-page-padding;
   }
 
   &__main-menu {
     text-align: center;
-    padding: 0 calc(50% - 555px) 0;
+    padding: $large-page-padding;
     margin-top: 56px;
   }
 
   &__product-menu {
     text-align: center;
-    padding: 0 calc(50% - 555px) 0;
+    padding: $large-page-padding;
     margin-top: 73px;
   }
 
   &__footer {
     height: 520px;
-    padding: 0 calc(50% - 555px) 0;
+    padding: $large-page-padding;
     margin-top: 65px;
     background: #081d31;
     color: #fff;
@@ -32,15 +32,15 @@
 @media screen and (max-width: 1199px) {
   .page {
     &__header {
-      padding: 0 40px;
+      padding: $main-page-padding;
     }
 
     &__main-menu {
-      padding: 0 40px;
+      padding: $main-page-padding;
     }
 
     &__footer {
-      padding: 0 40px;
+      padding: $main-page-padding;
     }
   }
 }
