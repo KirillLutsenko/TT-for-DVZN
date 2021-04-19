@@ -4,7 +4,7 @@
 
 **Description**
 
-- Tech stack: HTML5, SCSS, BEM, Flexbox, JS(for Burger-Menu)
+- Tech stack: HTML5, SASS, BEM, Flexbox, JS(for Burger-Menu)
 - All buttons and links are interactive.
 - Design you can find [here](https://www.figma.com/file/LFeOtJpL0OjTcKQzuzNJGy/Test-Task?node-id=0:1)
 
